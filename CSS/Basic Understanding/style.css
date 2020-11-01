@@ -4,12 +4,18 @@
 /*section {
   background: #ff1b68;
 }*/
-
+.section-title{ /* fpr Class selector*/
+  color: #2ddf5c;
+}
+/* classes overwrites the h1 tag*/
 h1 {
   color: white;
   /*font-family: 'Anton', sans-serif, serif;*/
   font-family: 'Syne Tactile', cursive;
 }
-.section-title{
-  color: #2ddf5c;
+h1{
+  font-family: 'Courier New', Courier, monospace;
 }
+
+
+/* Cascading means multiple rules apply to the same element.*/
