@@ -1,10 +1,15 @@
-section {
+#product-overview{
   background: #ff1b68;
 }
+/*section {
+  background: #ff1b68;
+}*/
+
 h1 {
   color: white;
   /*font-family: 'Anton', sans-serif, serif;*/
   font-family: 'Syne Tactile', cursive;
-
 }
-
+.section-title{
+  color: #2ddf5c;
+}
