@@ -1,3 +1,7 @@
+body{
+  font-family: ;
+}
+
 #product-overview{
   background: #ff1b68;
 }
@@ -13,9 +17,17 @@ h1 {
   /*font-family: 'Anton', sans-serif, serif;*/
   font-family: 'Syne Tactile', cursive;
 }
-h1{
+
+* {
   font-family: 'Courier New', Courier, monospace;
 }
+/*
+h1{
+  font-family: 'Courier New', Courier, monospace;
+}*/
 
 
-/* Cascading means multiple rules apply to the same element.*/
+/* Cascading means multiple rules apply to the same element.
+inheritance means that an element also inherits some styles of the parent element
+*/
+
