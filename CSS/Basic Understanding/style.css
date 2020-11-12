@@ -1,8 +1,8 @@
 body{
-  font-family: ;
+font-family: 'Tangerine', cursive;
 }
 
-#product-overview{
+#product-overview h1{
   background: #ff1b68;
 }
 /*section {
@@ -10,21 +10,22 @@ body{
 }*/
 .section-title{ /* fpr Class selector*/
   color: #2ddf5c;
+  font-family: inherit;
 }
 /* classes overwrites the h1 tag*/
-h1 {
+#product-overview h1 {
   color: white;
-  /*font-family: 'Anton', sans-serif, serif;*/
-  font-family: 'Syne Tactile', cursive;
+  font-family: 'Anton', sans-serif, serif;
+  /*font-family: 'Syne Tactile', cursive;*/
 }
 
 * {
   font-family: 'Courier New', Courier, monospace;
 }
-/*
+
 h1{
-  font-family: 'Courier New', Courier, monospace;
-}*/
+  font-family: sans-serif;
+}
 
 
 /* Cascading means multiple rules apply to the same element.
